@@ -13,7 +13,7 @@ while (indexA <= lastIndex && indexB <= lastIndex)
         if (indexB > lastIndex)
         {
             indexA++;
-            indexB = 0;
+            indexB = indexA + 1;
         }
     } while (indexB == indexA);
 }
