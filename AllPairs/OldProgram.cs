@@ -19,7 +19,7 @@
                     if (indexB > lastIndex)
                     {
                         indexA++;
-                        indexB = indexA + 1;
+                        indexB = 0;
                     }
                 } while (indexB == indexA);
             }
